@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Signup } from "./components/signup";
 import { Home } from "./components/home";
 import { Navbar } from "./components/navbar";
+import React from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
